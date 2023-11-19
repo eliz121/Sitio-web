@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        section {
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px; 
+            margin: 0 auto; 
+            text-align: left; 
+        }
+
+        label {
+            display: block; 
+            margin-bottom: 5px; 
+        }
+
+        input, textarea {
+            width: 100%; 
+            box-sizing: border-box; 
+            margin-bottom: 10px; 
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        body {
+      margin: 5;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+   
+    h1 {
+      margin: 0;
+    }
+
+  
+    h2{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+   }
+
+   img {  
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  margin-bottom: 20px;
+   }
+
+   p {
+    text-align: center;
+   }
+
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 50px;
+}
+
+td {
+      padding: 8px;
+      text-align: center;
+}
+
+    .img1 {
+  text-align: center;
+}
+
+.img1 img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+li{
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+   nav {
+    padding: 10px;
+    margin-left: 15px; 
+}
+
+nav a {
+    margin-left: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+            <h1>Contacto</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Información.html">Información</a></li>
+                    <li><a href="Destinos.html">Destinos</a></li>
+                    <li><a href="Destinos2.html">Más destinos</a></li>
+                    <li><a href="ContenidoExtra.html">Contenido Extra</a></li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+
+    <h2>Loja: Corazón de los Andes</h2>
+    <li>destinosmaravillosos@gmail.com</li>
+    <li>023506467</li>
+    <li>0993308880</li>
+
+    <img src="https://png.pngtree.com/png-vector/20230729/ourmid/pngtree-contact-clipart-woman-is-wearing-headsets-and-surrounded-by-icons-cartoon-vector-png-image_6793461.png">
+    
+    <section>
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para obtener más información sobre los lugares turísticos de Loja!</p>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <table>
+        <tr>
+            <td>
+                <p>Si amas viajar y conocer el mundo,</p>
+                <p>Loja debería ser uno de tus próximos rumbos.</p>
+            </td>
+            <td class = "img1"><img src="https://img.pikbest.com/element_our/20220618/bg/31e4c374441db.png!w700wp"></td>
+        </tr>
+    </table>
+<footer>
+    <p>@María Mendoza</p>
+</footer>
+</body>
+</html>
